@@ -1,0 +1,26 @@
+.pic-container {
+    width: 100%;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .button{
+    margin-right: 30px;
+    font-size: large;
+    border-radius: 10pt;
+  }
+
+  .button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+  
+  .btn-container{
+    padding-top: 20px;
+    position: absolute;
+    left: 40%;
+  }
