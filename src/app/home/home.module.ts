@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -9,7 +11,8 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
   ],
   imports: [
     CommonModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    ReactiveFormsModule
   ]
 })
 export class HomeModule { }
